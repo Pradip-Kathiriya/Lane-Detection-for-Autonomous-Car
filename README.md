@@ -35,17 +35,17 @@ This Project is divided into two parts:
   - Find the pixel coordinates having value 255.
   - Find the equation of curve from above pixel coordinate.
   - Extrapolate and plot the white lane using above equation.
-  - Compute the radius of curvature using [equation of curve](https://www.cuemath.com/radius-of-curvature-formula/).\
+  - Compute the radius of curvature using [equation of curve](https://www.cuemath.com/radius-of-curvature-formula/).
   
  **2. Yellow Lane Detection:**
   - convert the image into hsv color space and apply color mask to detect only yellow lane.
   - Find the pixel coordinate of the yellow pixel.
   - Find the equation of curve from above pixel coordinate.
   - Extrapolate and plot the yellow lane using above equation.
-  - Compute the radius of curvature using equation of curve.\
+  - Compute the radius of curvature using equation of curve.
   
  **3. Radius of Curvature:**
-  - Take the average of white and yellow lane radius.\
+  - Take the average of white and yellow lane radius.
   
  **4. Direction of Turn:**
   - If the coefficient of highest degree term in the equation of white/yellow lane is positive, then the turn would be right. If it is negative, then the turn would be left and if it is zero then then is a no turn.
