@@ -46,7 +46,7 @@ def main():
 
         final_image = cv.resize(final_image, (int(final_image.shape[1]*0.8), int(final_image.shape[0]*0.8)))
 
-        # show image
+        ## show image
         cv.imshow('Histogram Equalisation', final_image)
         
         # cv.imwrite("output_question1_partA.jpg", final_image)
