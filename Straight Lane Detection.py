@@ -135,7 +135,7 @@ def main():
                
 if __name__=="__main__":
     
-    # generate output video
+    ## generate output video
     video  = cv.VideoWriter('Question3_output.avi', cv.VideoWriter_fourcc(*'XVID'),10,(960,540))
     
     main()  
