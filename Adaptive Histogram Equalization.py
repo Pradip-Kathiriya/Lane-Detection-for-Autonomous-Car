@@ -2,6 +2,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # path = r'/home/pradip/Desktop/673/Project/project 2/pradip_project2/prob1data'
 def main():
     
