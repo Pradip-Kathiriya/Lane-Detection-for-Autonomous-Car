@@ -1,9 +1,9 @@
 # Project Description
 This Project is divided into two parts:
 
-**1. Straight Lane Detection**: In this part, the goal is to do simple Lane Detection to mimic Lane Departure Warning systems used in Self Driving Cars. You are provided with a video sequence, taken from a car. Your task is to design an algorithm to detect lanes on the road, and classify them as dashed and solid lines. For classification of the line type, you have to use different colors. Use green for solid and red for dashed.
+**1. Straight Lane Detection**: In this part, the goal is to do simple Lane Detection to mimic Lane Departure Warning systems used in Self Driving Cars. You are provided with a video sequence, taken from a car. Your task is to design an algorithm to detect lanes on the road and classify them as dashed and solid lines. For the classification of the line type, you have to use different colors. Use green for solid and red for dashed.
 
-**2. Curve Lane Detection and Turn Prediction**: In this part, the goal is to detect the curved lanes and predict the turn depending on the curvature: either left or right turn. The dataset provided has a yellow line and a while line. Your task is to design an algorithm to detect these lanes on the road, and predict the turn. When your lane detection system loses track(cannot find lane lines), you must manage to use the past history of the lanes from the previous image frames to extrapolate the lines for the current frame.
+**2. Curve Lane Detection and Turn Prediction**: In this part, the goal is to detect the curved lanes and predict the turn depending on the curvature: either a left or right turn. The dataset provided has a yellow line and a white line. Your task is to design an algorithm to detect these lanes on the road and predict the turn. When your lane detection system loses track(cannot find lane lines), you must manage to use the past history of the lanes from the previous image frames to extrapolate the lines for the current frame
 
 # Dataset
 
